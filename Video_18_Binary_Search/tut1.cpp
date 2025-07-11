@@ -3,6 +3,9 @@
 using namespace std;
 
 
+// Binary Search - can only be applied in sorted array
+// In binary serach, the ans eventually comes in mid
+
 // Iterative Method
 int binarySearch1(vector<int> &arr,int target){
     int n = arr.size();
